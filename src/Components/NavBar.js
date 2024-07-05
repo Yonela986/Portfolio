@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 
 import {
@@ -13,7 +13,7 @@ import { Link } from 'react-scroll';
 import AddHomeWorkIcon from '@mui/icons-material/AddHomeWork';
 
 
-const Navbar = () => {
+export default function Navbar() {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
 
@@ -21,7 +21,8 @@ const Navbar = () => {
     <nav className='navbar navbar-expand-md navbar-dark fixed-top bg-dark'>
       <div className='container-fluid'>
         <Link className='navbar-brand' to='home' smooth={true} duration={500}>
-        <AddHomeWorkIcon />
+        <AddHomeWorkIcon size={30} />
+       
         </Link>
         <button
           className='navbar-toggler'
@@ -86,4 +87,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+

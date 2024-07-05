@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-const Contact = () => {
+export default function Contact() {
   return (
     <div name='contact' className='container-fluid bg-dark text-light min-vh-100 d-flex align-items-center'>
       <div className='container'>
@@ -29,4 +29,3 @@ const Contact = () => {
   );
 };
 
-export default Contact;

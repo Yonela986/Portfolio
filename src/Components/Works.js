@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Works = () => {
+export default function Works() {
   return (
     <div id='work' className='bg-dark text-light'>
       <div className='container py-5'>
@@ -57,4 +57,3 @@ const Works = () => {
   );
 };
 
-export default Works;

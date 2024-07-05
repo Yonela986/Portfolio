@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Skills = () => {
+export default function Skills(){
   return (
     <div id='skills' className='container-fluid bg-dark text-light py-5'>
       <div className='container'>
@@ -15,63 +15,63 @@ const Skills = () => {
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>HTML</h5>
+                <h5 className='card-title'><i className="fab fa-html5" />HTML</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>CSS</h5>
+                <h5 className='card-title'><i className="fab fa-css3-alt" />CSS</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>JavaScript</h5>
+                <h5 className='card-title'><i className="fab fa-js-square" />JavaScript</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>React</h5>
+                <h5 className='card-title'><i className="fab fa-react" />React</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>GitHub</h5>
+                <h5 className='card-title'><i className="fab fa-github" />GitHub</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>Node.js</h5>
+                <h5 className='card-title'><i className="fab fa-node-js" />Node.js</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>Firebase DB</h5>
+                <h5 className='card-title'><i class="fa fa-database" />Firebase DB</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>Python</h5>
+                <h5 className='card-title'><i class='fab fa-python' />Python</h5>
               </div>
             </div>
           </div>
           <div className='col'>
             <div className='card bg-secondary text-light text-center shadow'>
               <div className='card-body'>
-                <h5 className='card-title'>Java</h5>
+                <h5 className='card-title'><i class='fab fa-java' />Java</h5>
               </div>
             </div>
           </div>
@@ -81,4 +81,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+
